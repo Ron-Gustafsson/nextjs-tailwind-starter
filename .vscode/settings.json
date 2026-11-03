@@ -1,0 +1,30 @@
+{
+  // Prettier formats the file automatically when Ctrl + S is used.
+  // Uses Prettier as the default formatter.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Formats code automatically when saving.
+  "editor.formatOnSave": true,
+
+  // Runs ESLint fixes when saving.
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // File types validated by ESLint.
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Tailwind CSS v4 uses custom at-rules such as @theme.
+  // VS Code's native CSS validator does not recognize them.
+  "css.lint.unknownAtRules": "ignore",
+
+  // Keep manual formatting in JSONC configuration files.
+  "[jsonc]": {
+    "editor.formatOnSave": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  // VS Code extensions recommended for developers working on this project.
+  "recommendations": [
+    // Shows ESLint problems directly in VS Code
+    // and works with eslint.config.mjs.
+    "dbaeumer.vscode-eslint",
+
+    // Connects the project's Prettier installation
+    // to VS Code formatting and format-on-save.
+    "esbenp.prettier-vscode",
+
+    // Provides Tailwind CSS autocomplete, hover information
+    // and support for Tailwind-specific syntax such as @theme.
+    "bradlc.vscode-tailwindcss"
+  ]
+}
